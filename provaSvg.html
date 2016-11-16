@@ -1,0 +1,50 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>SVG Example</title>
+</head>
+<body>
+
+	<svg width="350" height="350">
+		<rect x="50" y="50" width="100" height="100" fill="#D4E545" stroke="black" stroke-width="5"></rect>
+		<circle r="45" cx="100" cy="100"></circle>
+		<rect x="100" y="100" width="100" height="100" fill="none" stroke="#514B9A" stroke-width="5"></rect>
+		<line x1="172" y1="50" x2="250" y2="150" stroke="#987BAA" stroke-width="10"></line>
+		<line x1="260" y1="140" x2="240" y2="190" stroke="#987B4A" stroke-width="10"></line>
+		<line x1="230" y1="198" x2="310" y2="190" stroke="#F35BAA" stroke-width="10"></line>
+	</svg>
+
+	<svg width="250" height="350">
+		<path d="M50 50 L100 150 L150 100 L200 150 L100 270Z" fill="#787AAA" stroke="black" stroke-width="10"></path>
+	</svg>
+
+	<svg width="280" height="350">
+		<rect x="15" y="35" width="40" height="200" fill="#BA9A33"/>
+		<rect x="55" y="235" width="200" height="40" fill="#BA9A33"/>
+
+		<g transform="translate(65, 55)">
+			<circle cx="0" cy="0" r="10"/>
+			<circle cx="100" cy="100" r="10"/>
+			<circle cx="130" cy="120" r="10"/>
+			<circle cx="80" cy="120" r="10"/>
+			<circle cx="180" cy="80" r="10"/>
+			<circle cx="180" cy="40" r="10"/>
+		</g>
+	</svg>
+
+	<svg width="350" height="350">
+		<rect x="0" y="0" width="50" height="200" fill="gray"/>
+		<rect x="50" y="200" width="200" height="50" fill="gray"/>
+
+		<g transform="translate(50, 0)">
+			<rect x="5" y="0" width="40" height="200"/>
+			<rect x="55" y="50" width="40" height="150"/>
+			<rect x="105" y="100" width="40" height="100"/>
+			<rect x="155" y="150" width="40" height="50"/>
+			<path d="M50 95 L98 123 L124 145 L156 179" fill="none" stroke="white" stroke-width="6"></path>
+		</g>
+	</svg>
+
+</body>
+</html>
