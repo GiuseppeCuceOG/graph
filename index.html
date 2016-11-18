@@ -1,55 +1,53 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>3rd D3 Example</title>
+	<title>Map of Italy D3 Example</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 </head>
 <body>
-	
 	<script>
 
-		var outerWidth = 650;
-		var outerHeight = 650;
+		var larghezza = 550;
+		var lunghezza = 650;
+		var lat = "latitude";
+		var longi = "longitude";
+		var pop = "population";
 		var rMin = 2;
 		var rMax = 20;
-		var xColumn = "sepal_length";
-		var yColumn = "petal_length";
-		var rColumn = "sepal_width";
 
 		var svg = d3.select("body").append("svg")
-			.attr("width", outerWidth)
-			.attr("height", outerHeight);
+			.attr("width", larghezza)
+			.attr("height", lunghezza);
 
-		var xScale = d3.scale.linear().range([0, outerWidth]);
-		var yScale = d3.scale.linear().range([outerHeight, 0]);
-		var rScale = d3.scale.linear().range([rMin, rMax]);
+		var xScale = d3.scale.linear().range([0 +30, larghezza -30]);
+		var yScale = d3.scale.linear().range([lunghezza -30, 0 +30]);
+		var pScale = d3.scale.linear().range([rMin, rMax]);
 
-		function render(data) {
-			
-			xScale.domain(d3.extent(data, function (d) { return d[xColumn]; }));
-			yScale.domain(d3.extent(data, function (d) { return d[yColumn]; }));
-			rScale.domain(d3.extent(data, function (d) { return d[rColumn]; }));
+		function render (data) {
+			xScale.domain(d3.extent(data, function (d) { return d[longi]; }));
+			yScale.domain(d3.extent(data, function (d) { return d[lat]; }));
+			pScale.domain(d3.extent(data, function (d) { return d[pop]; }));
 
 			var circles = svg.selectAll("circle").data(data);
+
 			circles.enter().append("circle");
 			circles
-			.attr("cx", function (d) { return xScale(d[xColumn]); })
-			.attr("cy", function (d) { return yScale(d[yColumn]); })
-			.attr("r", function (d) { return rScale(d[rColumn]); });
+				.attr("cx", function (d) { return xScale(d[longi]); })
+				.attr("cy", function (d) { return yScale(d[lat]); })
+				.attr("r", function (d) { return pScale(d[pop]); })
 
 			circles.exit().remove();
 		}
 
-		function type (d){
-			d.sepal_length = +d.sepal_length;
-			d.sepal_width  = +d.sepal_width;
-			d.petal_length = +d.petal_length;
-			d.petal_width  = +d.petal_width;
+		function type(d) {
+			d.latitude = +d.latitude;
+			d.longitude = +d.longitude;
+			d.population = +d.population;
 			return d;
 		}
 
-		d3.csv("iris.csv", type, render);
+		d3.csv("cities.csv", type, render);
 
 	</script>
 
