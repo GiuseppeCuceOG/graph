@@ -1,4 +1,4 @@
-name,latitude,longitude,population
+        name,latitude,longitude,population
 Andria,					41.231667,	16.308333,	100365
 Ancona,					43.616667,	13.516667,	100721
 Piacenza,				45.05,		 9.7,		102181
@@ -740,3 +740,174 @@ Corsano,				39.883333,	18.366667,	  5657
 Porto Cesaro,			40.266667,	17.9,		  5930
 Presicce,				39.9,		18.266667,	  5583 
 Soleto,					40.187722,	18.207361,	  5496
+Gragnano,				40.688889,	14.520833,	 29509
+San Giuseppe Vesuviano,	40.833333,	14.5,		 27467
+Boscoreale,				40.775,		14.475,		 27457
+Sant'Anastasia,			40.866667,	14.4,		 27296
+Mondragone,				41.1,		13.883333,	 27070
+Bacoli,					40.8,		14.083333,	 26648
+Pompei,					40.75,		14.5,		 25440
+Pontecagnano,			40.65,		14.883333,	 25096
+Orta di Atella,			40.966667,	14.266667,	 24796
+Qualiano,				40.916667,	14.15,		 24744
+Nocera Superiore,		40.741667,	14.67222,	 24151
+Ottaviano,				40.85,		14.4775,	 23543
+Volla,					40.883333,	14.333333,	 22989
+Castel Volturno,		41.05,		13.916667,	 22882
+Ariano Irpino,			41.149722,	15.084167,	 22517
+Cardito,				40.93619,	14.29925,	 22322
+Sessa Aurunca,			41.233333,	13.933333,	 22216
+Mercato San Severino,	40.783333,	14.766667,	 22036
+Agropoli,				40.358333,	14.983333,	 20610
+Sant'Antonio Abate,		40.722222,	14.544444,	 19546
+Montoro,				40.824167,	14.761389,	 19456
+Capua,					41.105556,	14.213889,	 19036
+Ischia,					40.75,		13.95,		 18688
+Casavatore,				40.9,		14.266667,	 18663
+Cercola,				40.866667,	14.35,		 18128
+Grumo Nevano,			40.933333,	14.266667,	 18017
+Trentola Ducenta,		41.083333,	14.216667,	 17797
+Terzigno,				40.8,		14.5,		 17367
+San Felice a Cancello,	40.993333,	14.420556,	 17110
+Baronissi,				40.75,		14.78,		 16790
+Forio,					40.733333,	13.85,		 16597
+Capaccio Paestum,		40.416667,	15.083333,	 22016
+Poggiomarino,			40.8,		14.55,		 21206
+San Nicola Strada,		41.05,		14.333333,	 21157
+Vico Equense,			40.666667,	14.433333,	 20839
+Casal di Principe,		41.010833,	14.131944,	 20828
+Sorrento,				40.627778,	14.373611,	 16563
+Brusciano,				40.916667,	14.416667,	 16010
+Campagna,				40.666667,	15.1,		 15953
+Frattaminore,			40.955556,	14.270833,	 15708
+Saviano,				40.916667,	14.516667,	 15488
+Palma Campania,			40.866667,	14.55,		 14905
+Lusciano,				41.083333,	14.216667,	 14539
+Santa Maria Vico,		41.033333,	14.483333,	 14134
+Sant'Arpino,			40.9575,	14.249167,	 14076
+Massa Lubrense,			40.616667,	14.35,		 14020
+Montesarchio,			41.066667,	14.633333,	 13758
+Casagiove,				41.0757,	14.3086,	 13705
+Fisciano,				40.766667,	14.8,		 13677
+Teverola,				41,			14.216667,	 13610
+Pollena Trocchia,		40.855833,	14.382778,	 13514
+San Cipriano d'Aversa,	41.083333,	14.216667,	 13416
+Castel San Giorgio,		40.783333,	14.7,		 13411
+Casandrino,				40.933333,	14.25,		 13295
+Piano di Sorrento,		40.633333,	14.411111,	 12991
+Monte di Procida,		40.8,		14.05,		 12975
+Bellizzi,				40.616667,	14.95,		 12971
+Cicciano,				40.966667,	14.533333,	 12698
+San Marcellino,			41.083333,	14.216667,	 12643
+Teano,					41.25,		14.066667,	 12587
+Montecorvino,			40.7,		14.983333,	 12553
+Calvizzano,				40.9,		14.183333,	 12537
+Solofra,				40.833333,	14.85,		 12419
+Crispano,				40.95,		14.283333,	 12411
+Mercogliano,			40.923056,	14.742778,	 12403
+Sant'Agata de Goti,		41.090278,	14.5,		 12310
+Sala Consilina,			40.4,		15.6,		 12258
+Giffoni Valle Piana,	40.716667,	14.933333,	 12024
+San Prisco,				41.083333,	14.283333,	 11903
+San Maria la Carita,	40.716667,	14.516667,	 11726
+Piedimonte Matese,		41.183333,	14.366667,	 11504
+San Gennaro Vesuviano,	40.866667,	14.533333,	 11073
+Parete,					41.083333,	14.216667,	 11012
+Atripalda,				40.916667,	14.825556,	 10926
+Monteforte Irpino,		40.892778,	14.719444,	 10878
+San Giorgio Sannio,		41.066667,	14.85,		 10809
+Villa Literno,			41.083333,	14.216667,	 10715
+Pellezzano,				40.733333,	14.766667,	 10580
+Gricignano di Aversa,	40.983333,	14.233333,	 10559
+Macerata Campania,		41.066667,	14.266667,	 10558
+San Valentino Torio,	40.79109,	14.603333,	 10439
+Boscotrecase,			40.783333,	14.466667,	 10416
+Procida,				40.766667,	14.033333,	 10228
+San Marzano Sarno,		40.769703,	14.594661,	 10225
+Siano,					40.8025,	14.694444,	 10074
+Montecorvino Pugliano,	40.683333,	14.95,	 	 10019
+Casaluce,				41.083333,	14.216667,	 10001
+Cervinara,				41.021389,	14.615278,	  9969
+Barano d'Ischia,		40.716667,	13.916667,	  9882
+Capodrise,				41.05,		14.3,		  9773
+San Sebastiano Vesuvio,	40.833333,	14.366667,	  9167
+Roccapiemonte,			40.761667,	14.693333,	  9124
+Trecase,				40.766667,	14.433333,	  9118
+Sant'Agnello,			40.633333,	14.4,		  9029
+Frignano,				41.083333,	14.216667,	  8733
+Sant'Edigio,			40.740278,	14.594444,	  8715
+Vallo della Lucania,	40.233333,	15.266667,	  8680
+Cesa,					40.966667,	14.233333,	  8496
+Airola,					41.066667,	14.566667,	  8462
+Grottaminarda,			41.070833,	15.059722,	  8297
+Castellabate,			40.279167,	14.951667,	  8209
+Striano,				40.816667,	14.566667,	  8204
+Teggiano,				40.383333,	15.533333,	  8182
+Casapulla,				41.066667,	14.283333,	  8180
+Succivo,				40.966667,	14.25,		  8148
+Casamicciola Terme,		40.75,		13.916667, 	  8080
+Vietri sul Mare,		40.672222,	14.727778,	  8076
+Carinola,				41.183333,	13.983333,	  8056
+Meta,					40.641667,	14.416667,	  7969
+Mirabella Eclano,		41.045833,	14.999722,	  7904
+Montella,				40.85,		15.016667,	  7877
+Avella,					40.96,		14.601389,	  7788
+Portico di Caserta,		41.05,		14.283333,	  7719
+Cellole,				41.2,		13.85,		  7684
+Alife,					41.333333,	14.333333,	  7660
+Recale,					41.05,		14.3,		  7611
+Mariglienella,			40.916667,	14.433333,	  7572
+Sparanise,				41.183333,	14.1, 		  7509
+Castello Cisterna,		40.916667,	14.416667,	  7452
+Agerola,				40.633333,	14.55,		  7373
+Telese Terme,			41.216667,	14.533333,	  7364
+Roccadaspide,			40.433333,	15.2,		  7354
+Roccarainola,			40.966667,	14.566667,	  7164
+Serino,					40.85,		14.875,		  7129
+Curti,					41.07616,	14.28039,	  7110
+Cimitile,				40.933333,	14.533333,	  7093
+Grazzanise,				41.083333,	14.1,		  7085
+Vitulazio,				41.166667,	14.216667,	  7020
+Altavilla Silentina,	40.533333,	15.133333,	  6997
+Carinaro,				40.983333,	14.216667,	  6886
+Olevano sul Tusciano,	40.65,		15.016667,	  6883
+Capri,					40.555556,	14.240278,	  6831
+Sapri,					40.066667,	15.633333,	  6809
+Montesano Marcellana,	40.283333,	15.7,		  6781
+Camerota,				40.033033,	15.369928,	  6751
+Vairano Paterona,		41.333333,	14.133333,	  6658
+Casapesenna,			41.083333,	14.216667,	  6651
+San Cipriano Picentino,	40.716667,	14.866667,	  6643
+Anacapri,				40.551389,	14.216667,	  6546
+Albanella,				40.483333,	15.116667,	  6503
+Lioni,					40.8775,	15.188611,	  6335
+Apice,					41.116667,	14.933333,	  6245
+Pignataro Maggiore,		41.2,		14.166667,	  6230
+San Vitaliano,			40.933333,	14.483333,	  6220
+Lettere,				40.7,		14.55,		  6153
+Villa Briano,			41,			14.166667,	  6066
+Pimonte,				40.673611,	14.5125,	  6000
+Guardia Sanframondi,	41.25,		14.6,		  5846
+Calvi Risorta,			41.218889,	14.129167,	  5785
+Scisciano,				40.916667,	14.483333,	  5775
+Bellona,				41.166667,	14.233333,	  5705
+Caiazzo,				41.183333,	14.366667,	  5657
+San Bartolomeo Galdo,	41.416667,	15.016667,	  5590
+Massa Somma,			40.833333,	14.366667,	  5587
+Ascea,					40.15,		15.183333,	  5580
+Maiori,					40.648611,	14.638889,	  5575
+Morcone,				41.333333,	14.666667,	  5442
+Bracigliano,			40.816667,	14.7,		  5439
+Cancello Arnone,		41.066667,	14.016667,	  5428
+Forino,					40.863611,	14.736944,	  5397
+Camposano,				40.95,		14.533333,	  5365
+Montemiletto,			41.016667,	14.9,		  5361
+Arienzo,				41.02734,	14.4977,	  5333
+Polla,					40.516667,	15.5,		  5327
+Mugnano Cardinale,		40.933333,	14.633333,	  5312
+Padula,					40.333333,	15.666667,	  5279
+Giffoni Sei Casali,		40.716667,	14.9,		  5262
+Buccino,				40.633333,	15.383333,	  5248
+Amalfi,					40.633333,	14.602778,	  5163
+Centola,				40.066667,	15.316667,	  5073
+Cervino,				41.05,		14.416667,	  5024
