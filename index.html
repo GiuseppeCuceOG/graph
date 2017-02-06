@@ -10,9 +10,8 @@
 	<div id="title">
 		Map of Italy - Population per city
 	</div>
-	<div>
+	<div id="map">
 		<script>
-
 			var larghezza = 550;
 			var lunghezza = 750;
 			var lat = "latitude";
@@ -21,7 +20,7 @@
 			var rMin = 1.2;
 			var rMax = 80;
 
-			var svg = d3.select("body").append("svg")
+			var svg = d3.select("#map").append("svg")
 				.attr("width", larghezza)
 				.attr("height", lunghezza);
 
@@ -53,7 +52,6 @@
 			}
 
 			d3.csv("cities.csv", type, render);
-
 		</script>
 	</div>
 </body>
