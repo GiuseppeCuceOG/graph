@@ -13,7 +13,7 @@ body {
 	color: #EEE;
 	margin: 40px;
 	font-size: 20px;
-	font-family: Unispace;
+	font-family:  'Robotica';
 }
 
 div {
@@ -32,7 +32,7 @@ html {
 	background-color: #333;
 }
 
-/*@font-face {
-    font-family: 
-    src: url(sansation_light.woff);
-}*/
+@font-face {
+    font-family: Robotica;
+    src: url(Robotica.ttf);
+}
