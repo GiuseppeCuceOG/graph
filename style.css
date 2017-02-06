@@ -13,7 +13,7 @@ body {
 	color: #EEE;
 	margin: 40px;
 	font-size: 20px;
-	font-family:  'Robotica';
+	font-family:  Robotica;
 }
 
 div {
@@ -34,5 +34,5 @@ html {
 
 @font-face {
     font-family: Robotica;
-    src: url(Robotica.ttf);
+    src: url(../../../Windows/Fonts/Robotica.ttf);
 }
