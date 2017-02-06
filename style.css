@@ -1,5 +1,6 @@
 svg {
 	background-color: #111;
+	box-shadow: 0px 0px 20px 20px #111;
 }
 
 body {
@@ -10,8 +11,9 @@ body {
 #title {
 	text-align: center;
 	color: #EEE;
-	margin: 20px;
+	margin: 40px;
 	font-size: 20px;
+	font-family: Unispace;
 }
 
 div {
@@ -19,13 +21,18 @@ div {
 }
 
 circle {
-	fill: rgba(255,255,255,0.3);
+	fill: rgba(255,255,255,0.35);
 }
 
 circle:hover {
-	fill: rgba(255,40,50,1);
+	fill: rgba(220,35,60,1);
 }
 
 html {
-	background-color: #444;
+	background-color: #333;
 }
+
+/*@font-face {
+    font-family: 
+    src: url(sansation_light.woff);
+}*/
